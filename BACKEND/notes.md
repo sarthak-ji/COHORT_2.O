@@ -30,3 +30,7 @@ Back-end Notes:
 
 * DATABASE:
 - Mongoose package -> helps in connecting express server to the Mongodb database. ("npm i mongoose")
+
+
+
+NOTE:- "type": "module" --> this makes sure that we can use ES6 modules(import/export) in our Node.js application

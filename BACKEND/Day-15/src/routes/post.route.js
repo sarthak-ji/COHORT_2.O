@@ -7,7 +7,7 @@ const upload = multer({ storage: multer.memoryStorage() });
 
 
 /**
- * POST /api/posts [protected]
+ * POST /api/posts [protected - means jiske pass token hoga woh hi iss api ko access kar sakta hai]
  * - req.body = { caption,image-file }
  */
 postRouter.post("/", upload.single("photo"), postController.createPostController)
